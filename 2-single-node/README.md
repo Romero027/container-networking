@@ -14,8 +14,7 @@ vagrant up
 SSH to the node (VM) and run the setup script to create the network namespaces connected via bridge: 
 
 ```
-vagrant ssh container-networking-[12]
-cd /vagrant
+vagrant ssh
 ./setup.sh
 ```
 
